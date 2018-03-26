@@ -1,0 +1,194 @@
+
+body {
+	background-image: url(smoke.jpg);
+	background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: 0px 100px;
+	font-family: georgia;
+}
+h2.headingsm {
+	color: rgb(0,100,0);
+	font-family: georgia;
+	font-size: 35px;
+	
+}
+h1.headingh {
+	color: rgb(0,100,0);
+	font-family: georgia;
+	font-size: 35px;
+}
+h1.links {
+	color: rgb(0,100,0);
+	font-family: georgia;
+	font-size: 35px;
+}
+h1.specials {
+	color: rgb(0,100,0);
+	font-family: georgia;
+	font-size: 35px;
+}
+h1.app {
+	color: rgb(0,100,0);
+	font-family: georgia;
+	font-size: 35px;
+}
+.inspect {
+	color: red;
+	font-size: 30px;
+}
+
+#custinfo > h1{
+	color: rgb(0,100,0);
+}
+.formrow {
+	font-size: 30px;
+}
+
+label {
+	display: inline-block;
+	text-align: left;
+	width: 15%;
+}
+
+div.dsr {
+	color: rgb(0,100,0);
+	font-family: georgia;
+	font-size: 30px;
+}
+
+img.social {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3%; 
+}
+
+img.pics {
+	float: right;
+	width: 30%;
+	padding-right: 14%;
+	margin-top: 4%;
+}
+
+p.aboutus {
+	float: left;
+    font-size: 25px;
+    padding: 2% 1%;
+    width: 40%;
+	border: 4px double green;
+    color: rgb(0,100,0);
+	font-family: georgia;
+	margin-top: 7%;
+}
+	
+
+ul.navigation {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(50,205,50);
+	font-family: georgia;
+}
+
+ul.navigation li {
+	float: left;
+	border-right: 1px solid white;
+}
+
+ul.navigation li a {
+	display: block;
+	color: rgb(255,255,0);
+	text-align: center;
+	padding: 12px 20px;
+	text-decoration: none;
+}
+
+ul.navigation li a:hover:not(.active) {background-color: white;}
+
+ul.navigation li a.active {background-color: rgb(50,205,50);}
+
+.carousel-inner {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.bpcor {
+	float: left;
+	clear: left;
+	font-size: 25px;
+	font-family: georgia;
+	color: rgb(0,100,0);
+	padding-left: 5%;
+	padding-top: 4%;
+}
+
+.napa {
+	float: left;
+	clear: left;
+	font-size: 25px;
+	font-family: georgia;
+	color: rgb(0,100,0);
+	padding-left: 5%;
+}
+.facebook {
+	float: left;
+	clear: left;
+	font-size: 25px;
+	font-family: georgia;
+	color: rgb(0,100,0);
+	padding-left: 5%;
+}
+.twitter {
+	float: left;
+	clear: left;
+	font-size: 25px;
+	font-family: georgia;
+	color: rgb(0,100,0);
+	padding-left: 5%;
+}
+
+.map {
+	display: block;
+	margin-left: 40%;
+	margin-top: 5%;
+}
+
+.service {
+	clear: left;
+	float: left;
+	width: 45%;
+	font-size: 30px;
+	font-family: georgia;
+	color: rgb(0,100,0);
+}
+.serviceh {
+	clear:left;
+	float: left;
+	width: 45%;
+	color: rgb(0,100,0);
+	text-decoration: underline;
+	padding-top: 3%;
+}
+.convenience {
+	float: left;
+	width: 55%;
+	font-size: 30px;
+	font-family: georgia;
+	color: rgb(0,100,0);
+}
+.convenienceh {
+	color: rgb(0,100,0);
+	text-decoration: underline;
+	padding-top: 3%;
+}
+
+footer {
+	position: fixed;
+	width: 100%;
+	background-color: rgb(50,205,50);
+	color: rgb(255,255,0);
+	text-align: center;
+	bottom: 0;
+	font-size: 15px;
+}
